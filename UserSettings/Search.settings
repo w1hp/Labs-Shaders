@@ -13,7 +13,7 @@ scopes = {
 	"picker_item_size.075BCD15" = "96"
 	"picker_inspector.075BCD15" = "0"
 	"picker_current_group.075BCD15" = "all"
-	"last_search.FD7A1EDD" = ""
+	"last_search.FD7A1EDD" = "ref=\"Assets/Standard Assets/ExampleAssets/Shaders/Paint1G_WAnim_Shader.ShaderGraph\""
 	"OpenInspectorPreview.FD7A1EDD" = "0"
 	"currentGroup.FD7A1EDD" = "all"
 }
