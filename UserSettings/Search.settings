@@ -8,6 +8,14 @@ onBoardingDoNotAskAgain = true
 showPackageIndexes = false
 showStatusBar = false
 scopes = {
+	"picker_window_position_offset.075BCD15" = "-966;82;1212;652"
+	"picker_visibility_flags.075BCD15" = "264"
+	"picker_item_size.075BCD15" = "96"
+	"picker_inspector.075BCD15" = "0"
+	"picker_current_group.075BCD15" = "all"
+	"last_search.FD7A1EDD" = ""
+	"OpenInspectorPreview.FD7A1EDD" = "0"
+	"currentGroup.FD7A1EDD" = "all"
 }
 providers = {
 	adb = {
@@ -59,6 +67,7 @@ providers = {
 objectSelectors = {
 }
 recentSearches = [
+	""
 ]
 searchItemFavorites = [
 ]
