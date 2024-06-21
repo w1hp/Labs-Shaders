@@ -24,7 +24,7 @@ AnimatorController:
     m_Controller: {fileID: 9100000}
 --- !u!1102 &519778470029464040
 AnimatorState:
-  serializedVersion: 5
+  serializedVersion: 6
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -42,7 +42,7 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: 7400000, guid: c0dae19dae486db4dba280714b07b538, type: 2}
+  m_Motion: {fileID: 7400000, guid: cfd17d4d63ff52741a8ad845b30ee6bf, type: 2}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 
@@ -50,7 +50,7 @@ AnimatorState:
   m_TimeParameter: 
 --- !u!1107 &8239890981154642901
 AnimatorStateMachine:
-  serializedVersion: 5
+  serializedVersion: 6
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -59,7 +59,7 @@ AnimatorStateMachine:
   m_ChildStates:
   - serializedVersion: 1
     m_State: {fileID: 519778470029464040}
-    m_Position: {x: 200, y: 0, z: 0}
+    m_Position: {x: 270, y: 10, z: 0}
   m_ChildStateMachines: []
   m_AnyStateTransitions: []
   m_EntryTransitions: []
