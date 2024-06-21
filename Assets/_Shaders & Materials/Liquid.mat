@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &-8041264533846041197
+--- !u!114 &-1079078432271760839
 MonoBehaviour:
   m_ObjectHideFlags: 11
   m_CorrespondingSourceObject: {fileID: 0}
@@ -20,14 +20,14 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: GolemOutline
-  m_Shader: {fileID: -6465566751694194690, guid: 05be686a1f21d3d4ba8da800f92197b5,
+  m_Name: Liquid
+  m_Shader: {fileID: -6465566751694194690, guid: 9d66e9da66fa3fa41b54c352fb800d50,
     type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords: []
   m_InvalidKeywords: []
-  m_LightmapFlags: 2
+  m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
   m_CustomRenderQueue: -1
@@ -37,22 +37,6 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
-    - _Albedo1:
-        m_Texture: {fileID: 2800000, guid: 8e14ac0e081c92e419d772a166b7ebd3, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _Albedo2:
-        m_Texture: {fileID: 2800000, guid: c3b7a6b86247cb444ad8371d3c086086, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _GlowEyes:
-        m_Texture: {fileID: 2800000, guid: 2c228118eb117524e9d248a4fc17de22, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _Normal:
-        m_Texture: {fileID: 2800000, guid: d44803ef50e988443a59950806d14a51, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
     - unity_Lightmaps:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
@@ -67,11 +51,10 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _EyesPower: 100
-    - _Percent: 1
+    - _GlobalLiquidLevel: 1
+    - _Liquid_Level: 12.5
     - _QueueControl: 0
     - _QueueOffset: 0
     m_Colors:
     - _Color: {r: 1, g: 0, b: 0, a: 0}
-    - _ColorEyes: {r: 1, g: 0, b: 0, a: 0}
   m_BuildTextureStacks: []
